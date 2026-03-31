@@ -1,0 +1,2436 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2026-03-30",
+    "disclaimer": "These are indicative market benchmark ranges based on ICAI suggested minimum fees, regional council guidelines, and prevailing industry practice. They do not constitute official or binding rates.",
+    "currency": "INR"
+  },
+  "city_tiers": {
+    "Metro": [
+      "Mumbai",
+      "Delhi",
+      "Bangalore",
+      "Chennai",
+      "Kolkata",
+      "Hyderabad",
+      "Pune",
+      "Ahmedabad"
+    ],
+    "Tier-1": [
+      "Jaipur",
+      "Lucknow",
+      "Chandigarh",
+      "Kochi",
+      "Indore",
+      "Nagpur",
+      "Coimbatore",
+      "Vadodara",
+      "Vizag",
+      "Bhopal"
+    ],
+    "Tier-2": [
+      "Udaipur",
+      "Mysore",
+      "Raipur",
+      "Ranchi",
+      "Guwahati",
+      "Dehradun",
+      "Jodhpur",
+      "Aurangabad",
+      "Jabalpur",
+      "Thiruvananthapuram"
+    ],
+    "Tier-3": [
+      "Other cities and towns"
+    ]
+  },
+  "turnover_slabs": [
+    {
+      "id": "micro",
+      "label": "Up to ₹40 Lakhs",
+      "min": 0,
+      "max": 4000000
+    },
+    {
+      "id": "small",
+      "label": "₹40 Lakhs – ₹2 Crore",
+      "min": 4000000,
+      "max": 20000000
+    },
+    {
+      "id": "medium_small",
+      "label": "₹2 Crore – ₹10 Crore",
+      "min": 20000000,
+      "max": 100000000
+    },
+    {
+      "id": "medium",
+      "label": "₹10 Crore – ₹50 Crore",
+      "min": 100000000,
+      "max": 500000000
+    },
+    {
+      "id": "medium_large",
+      "label": "₹50 Crore – ₹250 Crore",
+      "min": 500000000,
+      "max": 2500000000
+    },
+    {
+      "id": "large",
+      "label": "Above ₹250 Crore",
+      "min": 2500000000,
+      "max": null
+    }
+  ],
+  "entity_types": [
+    "Individual / Proprietorship",
+    "HUF",
+    "Partnership Firm",
+    "LLP",
+    "Private Limited Company",
+    "Public Limited Company",
+    "Trust / Society / Section 8",
+    "Co-operative Society"
+  ],
+  "complexity_levels": {
+    "Low": {
+      "multiplier": 0.85,
+      "description": "Simple operations, single location, minimal transactions"
+    },
+    "Medium": {
+      "multiplier": 1.0,
+      "description": "Standard operations, moderate volume, typical compliance needs"
+    },
+    "High": {
+      "multiplier": 1.3,
+      "description": "Complex operations, multiple locations, high transaction volume"
+    },
+    "Very High": {
+      "multiplier": 1.6,
+      "description": "Multi-state, group companies, international transactions, special industries"
+    }
+  },
+  "engagements": {
+    "statutory_audit": {
+      "name": "Statutory Audit",
+      "category": "Audit & Assurance",
+      "applicable_entities": [
+        "Private Limited Company",
+        "Public Limited Company",
+        "LLP",
+        "Co-operative Society",
+        "Trust / Society / Section 8"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            25000,
+            50000
+          ],
+          "Tier-1": [
+            20000,
+            40000
+          ],
+          "Tier-2": [
+            15000,
+            30000
+          ],
+          "Tier-3": [
+            12000,
+            25000
+          ]
+        },
+        "small": {
+          "Metro": [
+            40000,
+            80000
+          ],
+          "Tier-1": [
+            30000,
+            65000
+          ],
+          "Tier-2": [
+            25000,
+            50000
+          ],
+          "Tier-3": [
+            20000,
+            40000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            75000,
+            175000
+          ],
+          "Tier-1": [
+            60000,
+            140000
+          ],
+          "Tier-2": [
+            45000,
+            110000
+          ],
+          "Tier-3": [
+            35000,
+            85000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            150000,
+            400000
+          ],
+          "Tier-1": [
+            120000,
+            325000
+          ],
+          "Tier-2": [
+            90000,
+            250000
+          ],
+          "Tier-3": [
+            70000,
+            200000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            350000,
+            800000
+          ],
+          "Tier-1": [
+            275000,
+            650000
+          ],
+          "Tier-2": [
+            200000,
+            500000
+          ],
+          "Tier-3": [
+            150000,
+            400000
+          ]
+        },
+        "large": {
+          "Metro": [
+            750000,
+            2500000
+          ],
+          "Tier-1": [
+            600000,
+            2000000
+          ],
+          "Tier-2": [
+            450000,
+            1500000
+          ],
+          "Tier-3": [
+            350000,
+            1200000
+          ]
+        }
+      },
+      "billing_basis": "Per Engagement (Annual)"
+    },
+    "tax_audit": {
+      "name": "Tax Audit (Section 44AB)",
+      "category": "Audit & Assurance",
+      "applicable_entities": [
+        "Individual / Proprietorship",
+        "HUF",
+        "Partnership Firm",
+        "LLP",
+        "Private Limited Company",
+        "Public Limited Company",
+        "Trust / Society / Section 8"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            15000,
+            30000
+          ],
+          "Tier-1": [
+            12000,
+            25000
+          ],
+          "Tier-2": [
+            10000,
+            20000
+          ],
+          "Tier-3": [
+            8000,
+            15000
+          ]
+        },
+        "small": {
+          "Metro": [
+            25000,
+            50000
+          ],
+          "Tier-1": [
+            20000,
+            40000
+          ],
+          "Tier-2": [
+            15000,
+            35000
+          ],
+          "Tier-3": [
+            12000,
+            25000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            40000,
+            100000
+          ],
+          "Tier-1": [
+            35000,
+            80000
+          ],
+          "Tier-2": [
+            25000,
+            65000
+          ],
+          "Tier-3": [
+            20000,
+            50000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            80000,
+            200000
+          ],
+          "Tier-1": [
+            65000,
+            165000
+          ],
+          "Tier-2": [
+            50000,
+            125000
+          ],
+          "Tier-3": [
+            40000,
+            100000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            175000,
+            450000
+          ],
+          "Tier-1": [
+            140000,
+            375000
+          ],
+          "Tier-2": [
+            110000,
+            275000
+          ],
+          "Tier-3": [
+            80000,
+            225000
+          ]
+        },
+        "large": {
+          "Metro": [
+            400000,
+            1200000
+          ],
+          "Tier-1": [
+            325000,
+            1000000
+          ],
+          "Tier-2": [
+            250000,
+            750000
+          ],
+          "Tier-3": [
+            200000,
+            600000
+          ]
+        }
+      },
+      "billing_basis": "Per Engagement (Annual)"
+    },
+    "internal_audit": {
+      "name": "Internal Audit",
+      "category": "Audit & Assurance",
+      "applicable_entities": [
+        "Private Limited Company",
+        "Public Limited Company",
+        "LLP",
+        "Trust / Society / Section 8",
+        "Co-operative Society"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            20000,
+            45000
+          ],
+          "Tier-1": [
+            15000,
+            35000
+          ],
+          "Tier-2": [
+            12000,
+            28000
+          ],
+          "Tier-3": [
+            10000,
+            22000
+          ]
+        },
+        "small": {
+          "Metro": [
+            35000,
+            75000
+          ],
+          "Tier-1": [
+            28000,
+            60000
+          ],
+          "Tier-2": [
+            22000,
+            48000
+          ],
+          "Tier-3": [
+            18000,
+            38000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            65000,
+            150000
+          ],
+          "Tier-1": [
+            50000,
+            120000
+          ],
+          "Tier-2": [
+            40000,
+            95000
+          ],
+          "Tier-3": [
+            30000,
+            75000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            125000,
+            350000
+          ],
+          "Tier-1": [
+            100000,
+            280000
+          ],
+          "Tier-2": [
+            80000,
+            220000
+          ],
+          "Tier-3": [
+            60000,
+            175000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            300000,
+            700000
+          ],
+          "Tier-1": [
+            240000,
+            575000
+          ],
+          "Tier-2": [
+            180000,
+            450000
+          ],
+          "Tier-3": [
+            140000,
+            350000
+          ]
+        },
+        "large": {
+          "Metro": [
+            650000,
+            2000000
+          ],
+          "Tier-1": [
+            525000,
+            1650000
+          ],
+          "Tier-2": [
+            400000,
+            1250000
+          ],
+          "Tier-3": [
+            300000,
+            1000000
+          ]
+        }
+      },
+      "billing_basis": "Per Engagement (Annual)"
+    },
+    "bank_branch_audit": {
+      "name": "Bank Branch Audit",
+      "category": "Audit & Assurance",
+      "applicable_entities": [
+        "Private Limited Company",
+        "Public Limited Company",
+        "Co-operative Society"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            30000,
+            60000
+          ],
+          "Tier-1": [
+            25000,
+            50000
+          ],
+          "Tier-2": [
+            20000,
+            40000
+          ],
+          "Tier-3": [
+            15000,
+            30000
+          ]
+        },
+        "small": {
+          "Metro": [
+            50000,
+            100000
+          ],
+          "Tier-1": [
+            40000,
+            85000
+          ],
+          "Tier-2": [
+            32000,
+            65000
+          ],
+          "Tier-3": [
+            25000,
+            50000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            85000,
+            200000
+          ],
+          "Tier-1": [
+            70000,
+            165000
+          ],
+          "Tier-2": [
+            55000,
+            125000
+          ],
+          "Tier-3": [
+            42000,
+            100000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            175000,
+            450000
+          ],
+          "Tier-1": [
+            140000,
+            375000
+          ],
+          "Tier-2": [
+            110000,
+            275000
+          ],
+          "Tier-3": [
+            85000,
+            225000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            400000,
+            900000
+          ],
+          "Tier-1": [
+            325000,
+            750000
+          ],
+          "Tier-2": [
+            250000,
+            575000
+          ],
+          "Tier-3": [
+            190000,
+            450000
+          ]
+        },
+        "large": {
+          "Metro": [
+            850000,
+            2500000
+          ],
+          "Tier-1": [
+            700000,
+            2100000
+          ],
+          "Tier-2": [
+            525000,
+            1600000
+          ],
+          "Tier-3": [
+            400000,
+            1250000
+          ]
+        }
+      },
+      "billing_basis": "Per Engagement"
+    },
+    "itr_individual": {
+      "name": "ITR Filing — Individual",
+      "category": "Tax Compliance",
+      "applicable_entities": [
+        "Individual / Proprietorship"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            2500,
+            7500
+          ],
+          "Tier-1": [
+            2000,
+            6000
+          ],
+          "Tier-2": [
+            1500,
+            5000
+          ],
+          "Tier-3": [
+            1000,
+            3500
+          ]
+        },
+        "small": {
+          "Metro": [
+            5000,
+            15000
+          ],
+          "Tier-1": [
+            4000,
+            12000
+          ],
+          "Tier-2": [
+            3000,
+            10000
+          ],
+          "Tier-3": [
+            2500,
+            7500
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            10000,
+            25000
+          ],
+          "Tier-1": [
+            8000,
+            20000
+          ],
+          "Tier-2": [
+            6000,
+            16000
+          ],
+          "Tier-3": [
+            5000,
+            12000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            20000,
+            50000
+          ],
+          "Tier-1": [
+            16000,
+            40000
+          ],
+          "Tier-2": [
+            12000,
+            32000
+          ],
+          "Tier-3": [
+            10000,
+            25000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            40000,
+            100000
+          ],
+          "Tier-1": [
+            32000,
+            80000
+          ],
+          "Tier-2": [
+            25000,
+            65000
+          ],
+          "Tier-3": [
+            20000,
+            50000
+          ]
+        },
+        "large": {
+          "Metro": [
+            75000,
+            200000
+          ],
+          "Tier-1": [
+            60000,
+            165000
+          ],
+          "Tier-2": [
+            45000,
+            125000
+          ],
+          "Tier-3": [
+            35000,
+            100000
+          ]
+        }
+      },
+      "billing_basis": "Per Return (Annual)"
+    },
+    "itr_huf": {
+      "name": "ITR Filing — HUF",
+      "category": "Tax Compliance",
+      "applicable_entities": [
+        "HUF"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            3000,
+            8000
+          ],
+          "Tier-1": [
+            2500,
+            6500
+          ],
+          "Tier-2": [
+            2000,
+            5000
+          ],
+          "Tier-3": [
+            1500,
+            4000
+          ]
+        },
+        "small": {
+          "Metro": [
+            6000,
+            15000
+          ],
+          "Tier-1": [
+            5000,
+            12000
+          ],
+          "Tier-2": [
+            4000,
+            10000
+          ],
+          "Tier-3": [
+            3000,
+            8000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            12000,
+            30000
+          ],
+          "Tier-1": [
+            10000,
+            24000
+          ],
+          "Tier-2": [
+            7500,
+            18000
+          ],
+          "Tier-3": [
+            6000,
+            14000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            25000,
+            60000
+          ],
+          "Tier-1": [
+            20000,
+            48000
+          ],
+          "Tier-2": [
+            15000,
+            38000
+          ],
+          "Tier-3": [
+            12000,
+            30000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            50000,
+            120000
+          ],
+          "Tier-1": [
+            40000,
+            100000
+          ],
+          "Tier-2": [
+            30000,
+            75000
+          ],
+          "Tier-3": [
+            25000,
+            60000
+          ]
+        },
+        "large": {
+          "Metro": [
+            100000,
+            250000
+          ],
+          "Tier-1": [
+            80000,
+            200000
+          ],
+          "Tier-2": [
+            60000,
+            150000
+          ],
+          "Tier-3": [
+            50000,
+            120000
+          ]
+        }
+      },
+      "billing_basis": "Per Return (Annual)"
+    },
+    "itr_partnership": {
+      "name": "ITR Filing — Partnership Firm",
+      "category": "Tax Compliance",
+      "applicable_entities": [
+        "Partnership Firm",
+        "LLP"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            5000,
+            12000
+          ],
+          "Tier-1": [
+            4000,
+            10000
+          ],
+          "Tier-2": [
+            3000,
+            8000
+          ],
+          "Tier-3": [
+            2500,
+            6000
+          ]
+        },
+        "small": {
+          "Metro": [
+            8000,
+            20000
+          ],
+          "Tier-1": [
+            6500,
+            16000
+          ],
+          "Tier-2": [
+            5000,
+            13000
+          ],
+          "Tier-3": [
+            4000,
+            10000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            15000,
+            40000
+          ],
+          "Tier-1": [
+            12000,
+            32000
+          ],
+          "Tier-2": [
+            10000,
+            25000
+          ],
+          "Tier-3": [
+            7500,
+            20000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            30000,
+            75000
+          ],
+          "Tier-1": [
+            25000,
+            60000
+          ],
+          "Tier-2": [
+            20000,
+            48000
+          ],
+          "Tier-3": [
+            15000,
+            38000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            60000,
+            150000
+          ],
+          "Tier-1": [
+            48000,
+            120000
+          ],
+          "Tier-2": [
+            38000,
+            95000
+          ],
+          "Tier-3": [
+            30000,
+            75000
+          ]
+        },
+        "large": {
+          "Metro": [
+            120000,
+            300000
+          ],
+          "Tier-1": [
+            100000,
+            250000
+          ],
+          "Tier-2": [
+            75000,
+            190000
+          ],
+          "Tier-3": [
+            60000,
+            150000
+          ]
+        }
+      },
+      "billing_basis": "Per Return (Annual)"
+    },
+    "itr_company": {
+      "name": "ITR Filing — Company",
+      "category": "Tax Compliance",
+      "applicable_entities": [
+        "Private Limited Company",
+        "Public Limited Company"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            8000,
+            20000
+          ],
+          "Tier-1": [
+            6500,
+            16000
+          ],
+          "Tier-2": [
+            5000,
+            13000
+          ],
+          "Tier-3": [
+            4000,
+            10000
+          ]
+        },
+        "small": {
+          "Metro": [
+            15000,
+            35000
+          ],
+          "Tier-1": [
+            12000,
+            28000
+          ],
+          "Tier-2": [
+            10000,
+            22000
+          ],
+          "Tier-3": [
+            7500,
+            18000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            25000,
+            65000
+          ],
+          "Tier-1": [
+            20000,
+            52000
+          ],
+          "Tier-2": [
+            16000,
+            42000
+          ],
+          "Tier-3": [
+            12000,
+            32000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            50000,
+            125000
+          ],
+          "Tier-1": [
+            40000,
+            100000
+          ],
+          "Tier-2": [
+            32000,
+            80000
+          ],
+          "Tier-3": [
+            25000,
+            65000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            100000,
+            250000
+          ],
+          "Tier-1": [
+            80000,
+            200000
+          ],
+          "Tier-2": [
+            65000,
+            160000
+          ],
+          "Tier-3": [
+            50000,
+            125000
+          ]
+        },
+        "large": {
+          "Metro": [
+            200000,
+            500000
+          ],
+          "Tier-1": [
+            165000,
+            400000
+          ],
+          "Tier-2": [
+            125000,
+            325000
+          ],
+          "Tier-3": [
+            100000,
+            250000
+          ]
+        }
+      },
+      "billing_basis": "Per Return (Annual)"
+    },
+    "itr_trust": {
+      "name": "ITR Filing — Trust / Society",
+      "category": "Tax Compliance",
+      "applicable_entities": [
+        "Trust / Society / Section 8"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            8000,
+            18000
+          ],
+          "Tier-1": [
+            6500,
+            15000
+          ],
+          "Tier-2": [
+            5000,
+            12000
+          ],
+          "Tier-3": [
+            4000,
+            9000
+          ]
+        },
+        "small": {
+          "Metro": [
+            12000,
+            30000
+          ],
+          "Tier-1": [
+            10000,
+            24000
+          ],
+          "Tier-2": [
+            8000,
+            20000
+          ],
+          "Tier-3": [
+            6000,
+            15000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            22000,
+            55000
+          ],
+          "Tier-1": [
+            18000,
+            45000
+          ],
+          "Tier-2": [
+            14000,
+            35000
+          ],
+          "Tier-3": [
+            10000,
+            28000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            45000,
+            110000
+          ],
+          "Tier-1": [
+            36000,
+            90000
+          ],
+          "Tier-2": [
+            28000,
+            70000
+          ],
+          "Tier-3": [
+            22000,
+            55000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            90000,
+            225000
+          ],
+          "Tier-1": [
+            72000,
+            180000
+          ],
+          "Tier-2": [
+            55000,
+            140000
+          ],
+          "Tier-3": [
+            45000,
+            110000
+          ]
+        },
+        "large": {
+          "Metro": [
+            175000,
+            450000
+          ],
+          "Tier-1": [
+            140000,
+            365000
+          ],
+          "Tier-2": [
+            110000,
+            280000
+          ],
+          "Tier-3": [
+            85000,
+            225000
+          ]
+        }
+      },
+      "billing_basis": "Per Return (Annual)"
+    },
+    "gst_monthly": {
+      "name": "GST Return Filing — Monthly",
+      "category": "Tax Compliance",
+      "applicable_entities": [
+        "Individual / Proprietorship",
+        "HUF",
+        "Partnership Firm",
+        "LLP",
+        "Private Limited Company",
+        "Public Limited Company",
+        "Trust / Society / Section 8",
+        "Co-operative Society"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            1500,
+            4000
+          ],
+          "Tier-1": [
+            1200,
+            3200
+          ],
+          "Tier-2": [
+            1000,
+            2500
+          ],
+          "Tier-3": [
+            750,
+            2000
+          ]
+        },
+        "small": {
+          "Metro": [
+            2500,
+            6000
+          ],
+          "Tier-1": [
+            2000,
+            5000
+          ],
+          "Tier-2": [
+            1500,
+            4000
+          ],
+          "Tier-3": [
+            1200,
+            3000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            4000,
+            10000
+          ],
+          "Tier-1": [
+            3200,
+            8000
+          ],
+          "Tier-2": [
+            2500,
+            6500
+          ],
+          "Tier-3": [
+            2000,
+            5000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            7500,
+            18000
+          ],
+          "Tier-1": [
+            6000,
+            15000
+          ],
+          "Tier-2": [
+            5000,
+            12000
+          ],
+          "Tier-3": [
+            3500,
+            9000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            15000,
+            35000
+          ],
+          "Tier-1": [
+            12000,
+            28000
+          ],
+          "Tier-2": [
+            9000,
+            22000
+          ],
+          "Tier-3": [
+            7000,
+            17000
+          ]
+        },
+        "large": {
+          "Metro": [
+            30000,
+            75000
+          ],
+          "Tier-1": [
+            25000,
+            60000
+          ],
+          "Tier-2": [
+            18000,
+            45000
+          ],
+          "Tier-3": [
+            14000,
+            35000
+          ]
+        }
+      },
+      "note": "Per month rates. Annual contract typically at 10x monthly rate.",
+      "billing_basis": "Per Month"
+    },
+    "gst_quarterly": {
+      "name": "GST Return Filing — Quarterly",
+      "category": "Tax Compliance",
+      "applicable_entities": [
+        "Individual / Proprietorship",
+        "HUF",
+        "Partnership Firm",
+        "LLP",
+        "Private Limited Company",
+        "Public Limited Company",
+        "Trust / Society / Section 8",
+        "Co-operative Society"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            3000,
+            8000
+          ],
+          "Tier-1": [
+            2500,
+            6500
+          ],
+          "Tier-2": [
+            2000,
+            5000
+          ],
+          "Tier-3": [
+            1500,
+            4000
+          ]
+        },
+        "small": {
+          "Metro": [
+            5000,
+            12000
+          ],
+          "Tier-1": [
+            4000,
+            10000
+          ],
+          "Tier-2": [
+            3000,
+            8000
+          ],
+          "Tier-3": [
+            2500,
+            6000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            8000,
+            20000
+          ],
+          "Tier-1": [
+            6500,
+            16000
+          ],
+          "Tier-2": [
+            5000,
+            13000
+          ],
+          "Tier-3": [
+            4000,
+            10000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            15000,
+            35000
+          ],
+          "Tier-1": [
+            12000,
+            28000
+          ],
+          "Tier-2": [
+            9000,
+            22000
+          ],
+          "Tier-3": [
+            7000,
+            17000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            30000,
+            70000
+          ],
+          "Tier-1": [
+            24000,
+            56000
+          ],
+          "Tier-2": [
+            18000,
+            42000
+          ],
+          "Tier-3": [
+            14000,
+            34000
+          ]
+        },
+        "large": {
+          "Metro": [
+            60000,
+            150000
+          ],
+          "Tier-1": [
+            48000,
+            120000
+          ],
+          "Tier-2": [
+            36000,
+            90000
+          ],
+          "Tier-3": [
+            28000,
+            70000
+          ]
+        }
+      },
+      "note": "Per quarter rates.",
+      "billing_basis": "Per Quarter"
+    },
+    "gst_annual": {
+      "name": "GST Annual Return (GSTR-9/9C)",
+      "category": "Tax Compliance",
+      "applicable_entities": [
+        "Individual / Proprietorship",
+        "HUF",
+        "Partnership Firm",
+        "LLP",
+        "Private Limited Company",
+        "Public Limited Company",
+        "Trust / Society / Section 8",
+        "Co-operative Society"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            8000,
+            20000
+          ],
+          "Tier-1": [
+            6500,
+            16000
+          ],
+          "Tier-2": [
+            5000,
+            13000
+          ],
+          "Tier-3": [
+            4000,
+            10000
+          ]
+        },
+        "small": {
+          "Metro": [
+            15000,
+            35000
+          ],
+          "Tier-1": [
+            12000,
+            28000
+          ],
+          "Tier-2": [
+            10000,
+            22000
+          ],
+          "Tier-3": [
+            7500,
+            18000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            25000,
+            60000
+          ],
+          "Tier-1": [
+            20000,
+            48000
+          ],
+          "Tier-2": [
+            16000,
+            38000
+          ],
+          "Tier-3": [
+            12000,
+            30000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            50000,
+            120000
+          ],
+          "Tier-1": [
+            40000,
+            100000
+          ],
+          "Tier-2": [
+            32000,
+            75000
+          ],
+          "Tier-3": [
+            25000,
+            60000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            100000,
+            250000
+          ],
+          "Tier-1": [
+            80000,
+            200000
+          ],
+          "Tier-2": [
+            60000,
+            150000
+          ],
+          "Tier-3": [
+            48000,
+            120000
+          ]
+        },
+        "large": {
+          "Metro": [
+            200000,
+            500000
+          ],
+          "Tier-1": [
+            165000,
+            400000
+          ],
+          "Tier-2": [
+            125000,
+            300000
+          ],
+          "Tier-3": [
+            100000,
+            250000
+          ]
+        }
+      },
+      "billing_basis": "Per Return (Annual)"
+    },
+    "company_incorporation": {
+      "name": "Company Incorporation",
+      "category": "Registration & Setup",
+      "applicable_entities": [
+        "Private Limited Company",
+        "Public Limited Company"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            15000,
+            35000
+          ],
+          "Tier-1": [
+            12000,
+            28000
+          ],
+          "Tier-2": [
+            10000,
+            22000
+          ],
+          "Tier-3": [
+            8000,
+            18000
+          ]
+        },
+        "small": {
+          "Metro": [
+            15000,
+            35000
+          ],
+          "Tier-1": [
+            12000,
+            28000
+          ],
+          "Tier-2": [
+            10000,
+            22000
+          ],
+          "Tier-3": [
+            8000,
+            18000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            20000,
+            45000
+          ],
+          "Tier-1": [
+            16000,
+            36000
+          ],
+          "Tier-2": [
+            13000,
+            28000
+          ],
+          "Tier-3": [
+            10000,
+            22000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            25000,
+            60000
+          ],
+          "Tier-1": [
+            20000,
+            48000
+          ],
+          "Tier-2": [
+            16000,
+            38000
+          ],
+          "Tier-3": [
+            12000,
+            30000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            35000,
+            85000
+          ],
+          "Tier-1": [
+            28000,
+            68000
+          ],
+          "Tier-2": [
+            22000,
+            52000
+          ],
+          "Tier-3": [
+            18000,
+            42000
+          ]
+        },
+        "large": {
+          "Metro": [
+            50000,
+            150000
+          ],
+          "Tier-1": [
+            40000,
+            120000
+          ],
+          "Tier-2": [
+            32000,
+            95000
+          ],
+          "Tier-3": [
+            25000,
+            75000
+          ]
+        }
+      },
+      "note": "Professional fees only. Government fees, stamp duty, and DSC charges are extra.",
+      "billing_basis": "One-time (Professional Fees Only)"
+    },
+    "llp_registration": {
+      "name": "LLP Registration",
+      "category": "Registration & Setup",
+      "applicable_entities": [
+        "LLP"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            10000,
+            25000
+          ],
+          "Tier-1": [
+            8000,
+            20000
+          ],
+          "Tier-2": [
+            6500,
+            16000
+          ],
+          "Tier-3": [
+            5000,
+            12000
+          ]
+        },
+        "small": {
+          "Metro": [
+            10000,
+            25000
+          ],
+          "Tier-1": [
+            8000,
+            20000
+          ],
+          "Tier-2": [
+            6500,
+            16000
+          ],
+          "Tier-3": [
+            5000,
+            12000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            15000,
+            35000
+          ],
+          "Tier-1": [
+            12000,
+            28000
+          ],
+          "Tier-2": [
+            10000,
+            22000
+          ],
+          "Tier-3": [
+            7500,
+            18000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            20000,
+            45000
+          ],
+          "Tier-1": [
+            16000,
+            36000
+          ],
+          "Tier-2": [
+            13000,
+            28000
+          ],
+          "Tier-3": [
+            10000,
+            22000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            25000,
+            60000
+          ],
+          "Tier-1": [
+            20000,
+            48000
+          ],
+          "Tier-2": [
+            16000,
+            38000
+          ],
+          "Tier-3": [
+            12000,
+            30000
+          ]
+        },
+        "large": {
+          "Metro": [
+            35000,
+            100000
+          ],
+          "Tier-1": [
+            28000,
+            80000
+          ],
+          "Tier-2": [
+            22000,
+            65000
+          ],
+          "Tier-3": [
+            18000,
+            50000
+          ]
+        }
+      },
+      "note": "Professional fees only. Government fees and DSC charges are extra.",
+      "billing_basis": "One-time (Professional Fees Only)"
+    },
+    "roc_annual_compliance": {
+      "name": "ROC Annual Compliances",
+      "category": "Corporate Compliance",
+      "applicable_entities": [
+        "Private Limited Company",
+        "Public Limited Company",
+        "LLP"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            8000,
+            20000
+          ],
+          "Tier-1": [
+            6500,
+            16000
+          ],
+          "Tier-2": [
+            5000,
+            13000
+          ],
+          "Tier-3": [
+            4000,
+            10000
+          ]
+        },
+        "small": {
+          "Metro": [
+            12000,
+            30000
+          ],
+          "Tier-1": [
+            10000,
+            24000
+          ],
+          "Tier-2": [
+            8000,
+            20000
+          ],
+          "Tier-3": [
+            6000,
+            15000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            18000,
+            45000
+          ],
+          "Tier-1": [
+            15000,
+            36000
+          ],
+          "Tier-2": [
+            12000,
+            28000
+          ],
+          "Tier-3": [
+            9000,
+            22000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            30000,
+            75000
+          ],
+          "Tier-1": [
+            24000,
+            60000
+          ],
+          "Tier-2": [
+            18000,
+            48000
+          ],
+          "Tier-3": [
+            15000,
+            38000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            55000,
+            130000
+          ],
+          "Tier-1": [
+            44000,
+            105000
+          ],
+          "Tier-2": [
+            35000,
+            80000
+          ],
+          "Tier-3": [
+            28000,
+            65000
+          ]
+        },
+        "large": {
+          "Metro": [
+            100000,
+            300000
+          ],
+          "Tier-1": [
+            80000,
+            240000
+          ],
+          "Tier-2": [
+            65000,
+            190000
+          ],
+          "Tier-3": [
+            50000,
+            150000
+          ]
+        }
+      },
+      "note": "Includes AOC-4, MGT-7/MGT-7A, ADT-1, and board resolution filings.",
+      "billing_basis": "Per Year"
+    },
+    "tds_return": {
+      "name": "TDS Return Filing",
+      "category": "Tax Compliance",
+      "applicable_entities": [
+        "Individual / Proprietorship",
+        "HUF",
+        "Partnership Firm",
+        "LLP",
+        "Private Limited Company",
+        "Public Limited Company",
+        "Trust / Society / Section 8",
+        "Co-operative Society"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            1500,
+            4000
+          ],
+          "Tier-1": [
+            1200,
+            3200
+          ],
+          "Tier-2": [
+            1000,
+            2500
+          ],
+          "Tier-3": [
+            750,
+            2000
+          ]
+        },
+        "small": {
+          "Metro": [
+            2500,
+            6000
+          ],
+          "Tier-1": [
+            2000,
+            5000
+          ],
+          "Tier-2": [
+            1500,
+            4000
+          ],
+          "Tier-3": [
+            1200,
+            3000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            4000,
+            10000
+          ],
+          "Tier-1": [
+            3200,
+            8000
+          ],
+          "Tier-2": [
+            2500,
+            6500
+          ],
+          "Tier-3": [
+            2000,
+            5000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            7500,
+            18000
+          ],
+          "Tier-1": [
+            6000,
+            15000
+          ],
+          "Tier-2": [
+            5000,
+            12000
+          ],
+          "Tier-3": [
+            3500,
+            9000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            15000,
+            35000
+          ],
+          "Tier-1": [
+            12000,
+            28000
+          ],
+          "Tier-2": [
+            9000,
+            22000
+          ],
+          "Tier-3": [
+            7000,
+            17000
+          ]
+        },
+        "large": {
+          "Metro": [
+            25000,
+            65000
+          ],
+          "Tier-1": [
+            20000,
+            52000
+          ],
+          "Tier-2": [
+            16000,
+            42000
+          ],
+          "Tier-3": [
+            12000,
+            32000
+          ]
+        }
+      },
+      "note": "Per quarter rates. Includes Form 24Q, 26Q, 27Q as applicable.",
+      "billing_basis": "Per Quarter"
+    },
+    "bookkeeping": {
+      "name": "Bookkeeping & Accounting",
+      "category": "Accounting Services",
+      "applicable_entities": [
+        "Individual / Proprietorship",
+        "HUF",
+        "Partnership Firm",
+        "LLP",
+        "Private Limited Company",
+        "Public Limited Company",
+        "Trust / Society / Section 8",
+        "Co-operative Society"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            3000,
+            8000
+          ],
+          "Tier-1": [
+            2500,
+            6500
+          ],
+          "Tier-2": [
+            2000,
+            5000
+          ],
+          "Tier-3": [
+            1500,
+            4000
+          ]
+        },
+        "small": {
+          "Metro": [
+            5000,
+            15000
+          ],
+          "Tier-1": [
+            4000,
+            12000
+          ],
+          "Tier-2": [
+            3000,
+            10000
+          ],
+          "Tier-3": [
+            2500,
+            7500
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            10000,
+            30000
+          ],
+          "Tier-1": [
+            8000,
+            24000
+          ],
+          "Tier-2": [
+            6500,
+            18000
+          ],
+          "Tier-3": [
+            5000,
+            14000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            20000,
+            55000
+          ],
+          "Tier-1": [
+            16000,
+            45000
+          ],
+          "Tier-2": [
+            12000,
+            35000
+          ],
+          "Tier-3": [
+            10000,
+            28000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            40000,
+            100000
+          ],
+          "Tier-1": [
+            32000,
+            80000
+          ],
+          "Tier-2": [
+            25000,
+            65000
+          ],
+          "Tier-3": [
+            20000,
+            50000
+          ]
+        },
+        "large": {
+          "Metro": [
+            80000,
+            200000
+          ],
+          "Tier-1": [
+            65000,
+            165000
+          ],
+          "Tier-2": [
+            50000,
+            125000
+          ],
+          "Tier-3": [
+            40000,
+            100000
+          ]
+        }
+      },
+      "note": "Monthly rates. Includes ledger maintenance, bank reconciliation, and monthly MIS.",
+      "billing_basis": "Per Month"
+    },
+    "certification": {
+      "name": "Certification Work",
+      "category": "Certification & Attestation",
+      "applicable_entities": [
+        "Individual / Proprietorship",
+        "HUF",
+        "Partnership Firm",
+        "LLP",
+        "Private Limited Company",
+        "Public Limited Company",
+        "Trust / Society / Section 8",
+        "Co-operative Society"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            5000,
+            15000
+          ],
+          "Tier-1": [
+            4000,
+            12000
+          ],
+          "Tier-2": [
+            3000,
+            10000
+          ],
+          "Tier-3": [
+            2500,
+            7500
+          ]
+        },
+        "small": {
+          "Metro": [
+            8000,
+            22000
+          ],
+          "Tier-1": [
+            6500,
+            18000
+          ],
+          "Tier-2": [
+            5000,
+            14000
+          ],
+          "Tier-3": [
+            4000,
+            11000
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            12000,
+            35000
+          ],
+          "Tier-1": [
+            10000,
+            28000
+          ],
+          "Tier-2": [
+            8000,
+            22000
+          ],
+          "Tier-3": [
+            6000,
+            18000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            20000,
+            55000
+          ],
+          "Tier-1": [
+            16000,
+            45000
+          ],
+          "Tier-2": [
+            12000,
+            35000
+          ],
+          "Tier-3": [
+            10000,
+            28000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            35000,
+            90000
+          ],
+          "Tier-1": [
+            28000,
+            72000
+          ],
+          "Tier-2": [
+            22000,
+            55000
+          ],
+          "Tier-3": [
+            18000,
+            45000
+          ]
+        },
+        "large": {
+          "Metro": [
+            60000,
+            175000
+          ],
+          "Tier-1": [
+            48000,
+            140000
+          ],
+          "Tier-2": [
+            38000,
+            110000
+          ],
+          "Tier-3": [
+            30000,
+            85000
+          ]
+        }
+      },
+      "note": "Covers Net Worth Certificate, Turnover Certificate, FEMA certificates, Bank certificates, etc.",
+      "billing_basis": "Per Certificate"
+    },
+    "advisory_consulting": {
+      "name": "Advisory / Consulting",
+      "category": "Advisory Services",
+      "applicable_entities": [
+        "Individual / Proprietorship",
+        "HUF",
+        "Partnership Firm",
+        "LLP",
+        "Private Limited Company",
+        "Public Limited Company",
+        "Trust / Society / Section 8",
+        "Co-operative Society"
+      ],
+      "fees": {
+        "micro": {
+          "Metro": [
+            3000,
+            7500
+          ],
+          "Tier-1": [
+            2500,
+            6000
+          ],
+          "Tier-2": [
+            2000,
+            5000
+          ],
+          "Tier-3": [
+            1500,
+            3500
+          ]
+        },
+        "small": {
+          "Metro": [
+            3500,
+            8500
+          ],
+          "Tier-1": [
+            3000,
+            7000
+          ],
+          "Tier-2": [
+            2500,
+            5500
+          ],
+          "Tier-3": [
+            2000,
+            4500
+          ]
+        },
+        "medium_small": {
+          "Metro": [
+            5000,
+            12000
+          ],
+          "Tier-1": [
+            4000,
+            10000
+          ],
+          "Tier-2": [
+            3000,
+            8000
+          ],
+          "Tier-3": [
+            2500,
+            6000
+          ]
+        },
+        "medium": {
+          "Metro": [
+            7500,
+            18000
+          ],
+          "Tier-1": [
+            6000,
+            15000
+          ],
+          "Tier-2": [
+            5000,
+            12000
+          ],
+          "Tier-3": [
+            3500,
+            9000
+          ]
+        },
+        "medium_large": {
+          "Metro": [
+            10000,
+            25000
+          ],
+          "Tier-1": [
+            8000,
+            20000
+          ],
+          "Tier-2": [
+            6500,
+            16000
+          ],
+          "Tier-3": [
+            5000,
+            12000
+          ]
+        },
+        "large": {
+          "Metro": [
+            15000,
+            35000
+          ],
+          "Tier-1": [
+            12000,
+            28000
+          ],
+          "Tier-2": [
+            10000,
+            22000
+          ],
+          "Tier-3": [
+            7500,
+            18000
+          ]
+        }
+      },
+      "note": "Hourly rates. For project-based advisory, multiply by estimated hours.",
+      "billing_basis": "Per Hour"
+    }
+  }
+}

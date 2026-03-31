@@ -1,0 +1,349 @@
+{
+  "statutory_audit": {
+    "scope_of_work": [
+      "Conduct statutory audit of financial statements in accordance with Standards on Auditing issued by ICAI",
+      "Examination of books of accounts, vouchers, and supporting documents",
+      "Verification of assets, liabilities, income, and expenditure",
+      "Review of internal controls and accounting policies",
+      "Assessment of going concern and compliance with applicable accounting standards",
+      "Reporting under CARO (Companies Auditor's Report Order), if applicable",
+      "Issuance of Independent Auditor's Report"
+    ],
+    "deliverables": [
+      "Independent Auditor's Report",
+      "Audited Financial Statements (Balance Sheet, P&L, Cash Flow, Notes)",
+      "CARO Report (if applicable)",
+      "Management Letter with observations and recommendations",
+      "Tax Audit Report coordination (if combined engagement)"
+    ],
+    "timeline": "4-8 weeks from receipt of complete information",
+    "payment_terms": "50% on engagement acceptance, 50% on delivery of final report"
+  },
+  "tax_audit": {
+    "scope_of_work": [
+      "Conduct tax audit under Section 44AB of the Income Tax Act, 1961",
+      "Verification of books of accounts and financial records",
+      "Examination of compliance with provisions of the Income Tax Act",
+      "Review of TDS/TCS compliance and payments",
+      "Verification of GST reconciliation with books of accounts",
+      "Reporting in Form 3CA/3CB and Form 3CD as applicable",
+      "Filing of Tax Audit Report on the Income Tax e-filing portal"
+    ],
+    "deliverables": [
+      "Tax Audit Report in Form 3CA/3CB",
+      "Statement of Particulars in Form 3CD",
+      "Clause-wise observations and notes",
+      "UDIN generation and communication"
+    ],
+    "timeline": "3-6 weeks from receipt of complete information",
+    "payment_terms": "50% on engagement acceptance, 50% on filing of report"
+  },
+  "internal_audit": {
+    "scope_of_work": [
+      "Conduct internal audit as per the scope defined in consultation with management",
+      "Review of internal controls, processes, and standard operating procedures",
+      "Transaction testing and sample verification",
+      "Compliance review of statutory and regulatory requirements",
+      "Evaluation of risk management framework",
+      "Assessment of efficiency and effectiveness of operations",
+      "Quarterly/periodic reporting to the Audit Committee / Management"
+    ],
+    "deliverables": [
+      "Internal Audit Report with findings and observations",
+      "Risk assessment matrix",
+      "Recommendations for process improvement",
+      "Follow-up reports on previous audit observations",
+      "Presentation to Audit Committee (if required)"
+    ],
+    "timeline": "Ongoing engagement with quarterly reporting cycles",
+    "payment_terms": "Equal quarterly installments, payable in advance"
+  },
+  "bank_branch_audit": {
+    "scope_of_work": [
+      "Conduct audit of the bank branch as per RBI guidelines and LFAR requirements",
+      "Verification of advances, deposits, and investment portfolios",
+      "Review of KYC/AML compliance",
+      "Examination of NPA classification and provisioning",
+      "Verification of income recognition and interest calculation",
+      "Assessment of internal controls and housekeeping",
+      "Completion of Long Form Audit Report (LFAR)"
+    ],
+    "deliverables": [
+      "Branch Audit Report",
+      "Long Form Audit Report (LFAR)",
+      "MOC (Memorandum of Changes)",
+      "Certificate of advances and deposits",
+      "Observations on NPA classification"
+    ],
+    "timeline": "2-4 weeks as per the schedule provided by the bank",
+    "payment_terms": "As per bank's payment schedule, typically within 30 days of report submission"
+  },
+  "itr_individual": {
+    "scope_of_work": [
+      "Compilation of income details from all sources (salary, house property, capital gains, business/profession, other sources)",
+      "Review of Form 16, Form 26AS/AIS, and TIS",
+      "Computation of total income and tax liability",
+      "Identification of applicable deductions and exemptions under Chapter VI-A",
+      "Preparation and e-filing of Income Tax Return in the applicable ITR form",
+      "Verification and e-verification of the filed return"
+    ],
+    "deliverables": [
+      "Computation of Total Income and Tax Liability",
+      "Filed Income Tax Return with acknowledgement",
+      "Tax planning suggestions for the next financial year"
+    ],
+    "timeline": "5-7 working days from receipt of complete information",
+    "payment_terms": "100% in advance or 50% advance and 50% on filing"
+  },
+  "itr_huf": {
+    "scope_of_work": [
+      "Review of HUF income from all sources",
+      "Compilation and verification of income details with supporting documents",
+      "Computation of total income considering HUF-specific provisions",
+      "Identification of applicable deductions and exemptions",
+      "Preparation and e-filing of Income Tax Return",
+      "E-verification of the filed return"
+    ],
+    "deliverables": [
+      "Computation of Total Income and Tax Liability",
+      "Filed Income Tax Return with acknowledgement",
+      "Advisory on HUF tax planning"
+    ],
+    "timeline": "5-7 working days from receipt of complete information",
+    "payment_terms": "100% in advance"
+  },
+  "itr_partnership": {
+    "scope_of_work": [
+      "Review of partnership/LLP income and partner-wise allocation",
+      "Verification of books of accounts and financial statements",
+      "Computation of total income including partner remuneration and interest",
+      "Review of Section 40(b) limits for partner remuneration",
+      "Preparation and e-filing of Income Tax Return (ITR-5)",
+      "E-verification of the filed return"
+    ],
+    "deliverables": [
+      "Computation of Total Income and Tax Liability",
+      "Partner-wise income allocation statement",
+      "Filed Income Tax Return with acknowledgement"
+    ],
+    "timeline": "7-10 working days from receipt of complete information",
+    "payment_terms": "50% on engagement acceptance, 50% on filing"
+  },
+  "itr_company": {
+    "scope_of_work": [
+      "Review of audited financial statements and audit report",
+      "Computation of total income under the Income Tax Act",
+      "MAT/AMT computation under Section 115JB/115JC (if applicable)",
+      "Review of carry forward losses, depreciation, and deductions",
+      "Preparation of tax computation and e-filing of ITR-6",
+      "Reconciliation with Form 26AS/AIS",
+      "E-verification of the filed return"
+    ],
+    "deliverables": [
+      "Detailed Tax Computation Statement",
+      "MAT/AMT Computation (if applicable)",
+      "Filed Income Tax Return (ITR-6) with acknowledgement",
+      "Tax payment challans and reconciliation"
+    ],
+    "timeline": "7-14 working days from receipt of audited financials",
+    "payment_terms": "50% on engagement acceptance, 50% on filing"
+  },
+  "itr_trust": {
+    "scope_of_work": [
+      "Review of trust/society income and application of funds",
+      "Verification of compliance with Section 11, 12, and 13 provisions",
+      "Assessment of accumulation and deemed income provisions",
+      "Review of Form 10/10B filing requirements",
+      "Preparation and e-filing of Income Tax Return (ITR-7)",
+      "E-verification of the filed return"
+    ],
+    "deliverables": [
+      "Computation of Total Income and Tax Liability",
+      "Income & Application statement as per IT Act",
+      "Filed Income Tax Return (ITR-7) with acknowledgement",
+      "Form 10/10B filing (if applicable)"
+    ],
+    "timeline": "7-10 working days from receipt of complete information",
+    "payment_terms": "50% on engagement acceptance, 50% on filing"
+  },
+  "gst_monthly": {
+    "scope_of_work": [
+      "Compilation and review of sales and purchase data",
+      "Reconciliation of input tax credit with GSTR-2B",
+      "Preparation and filing of GSTR-1 (outward supplies)",
+      "Preparation and filing of GSTR-3B (summary return)",
+      "ITC reconciliation and mismatch resolution",
+      "Advisory on GST compliance issues"
+    ],
+    "deliverables": [
+      "Filed GSTR-1 with ARN",
+      "Filed GSTR-3B with ARN",
+      "Monthly ITC reconciliation statement",
+      "GST compliance status report"
+    ],
+    "timeline": "By 11th and 20th of the following month respectively",
+    "payment_terms": "Monthly retainer, payable in advance by the 5th of each month"
+  },
+  "gst_quarterly": {
+    "scope_of_work": [
+      "Compilation and review of quarterly sales and purchase data",
+      "ITC reconciliation with GSTR-2B for the quarter",
+      "Preparation and filing of GSTR-1 (quarterly) or IFF",
+      "Preparation and filing of GSTR-3B (quarterly)",
+      "Advisory on QRMP scheme compliance"
+    ],
+    "deliverables": [
+      "Filed GSTR-1 (Quarterly) with ARN",
+      "Filed GSTR-3B (Quarterly) with ARN",
+      "Quarterly ITC reconciliation statement"
+    ],
+    "timeline": "Within 13 days of quarter end for GSTR-1, by 22nd/24th for GSTR-3B",
+    "payment_terms": "Quarterly retainer, payable in advance"
+  },
+  "gst_annual": {
+    "scope_of_work": [
+      "Reconciliation of turnover as per books with GSTR-1 and GSTR-3B",
+      "ITC reconciliation for the entire financial year",
+      "Preparation of GSTR-9 (Annual Return)",
+      "Preparation of GSTR-9C (Reconciliation Statement) if applicable",
+      "HSN-wise summary preparation",
+      "Resolution of mismatches and discrepancies"
+    ],
+    "deliverables": [
+      "Filed GSTR-9 with ARN",
+      "Filed GSTR-9C with ARN (if applicable)",
+      "Detailed reconciliation workpapers",
+      "Summary of adjustments and observations"
+    ],
+    "timeline": "4-6 weeks from availability of complete data",
+    "payment_terms": "50% on engagement acceptance, 50% on filing"
+  },
+  "company_incorporation": {
+    "scope_of_work": [
+      "Advisory on company structure, authorized capital, and object clause",
+      "Obtaining Digital Signature Certificates (DSC) for proposed directors",
+      "Name reservation through RUN (Reserve Unique Name) service",
+      "Drafting of Memorandum of Association (MOA) and Articles of Association (AOA)",
+      "Filing of SPICe+ form with MCA",
+      "Obtaining Certificate of Incorporation, PAN, and TAN",
+      "Assistance with opening of bank account"
+    ],
+    "deliverables": [
+      "Certificate of Incorporation",
+      "PAN and TAN of the company",
+      "MOA and AOA (stamped copies)",
+      "Digital Signature Certificates for directors",
+      "Company Master Data from MCA portal"
+    ],
+    "timeline": "10-15 working days from submission of complete documents",
+    "payment_terms": "100% in advance (professional fees separate from government fees)"
+  },
+  "llp_registration": {
+    "scope_of_work": [
+      "Advisory on LLP structure and designated partners",
+      "Obtaining DSCs for designated partners",
+      "Name reservation through RUN-LLP service",
+      "Drafting of LLP Agreement",
+      "Filing of FiLLiP form with MCA",
+      "Obtaining Certificate of Incorporation and PAN/TAN"
+    ],
+    "deliverables": [
+      "Certificate of Incorporation of LLP",
+      "PAN and TAN of the LLP",
+      "LLP Agreement (executed copy)",
+      "DSCs for designated partners"
+    ],
+    "timeline": "10-12 working days from submission of complete documents",
+    "payment_terms": "100% in advance (professional fees separate from government fees)"
+  },
+  "roc_annual_compliance": {
+    "scope_of_work": [
+      "Preparation and filing of Annual Return (MGT-7/MGT-7A)",
+      "Preparation and filing of Financial Statements (AOC-4/AOC-4 CFS)",
+      "Filing of ADT-1 (Auditor Appointment) if applicable",
+      "Drafting of Board Resolutions and Minutes",
+      "Maintenance of Statutory Registers",
+      "Advisory on event-based compliances during the year"
+    ],
+    "deliverables": [
+      "Filed AOC-4 with SRN",
+      "Filed MGT-7/MGT-7A with SRN",
+      "Filed ADT-1 with SRN (if applicable)",
+      "Board Resolution templates and minutes",
+      "Compliance calendar for the next year"
+    ],
+    "timeline": "Within 30 days of AGM for AOC-4 and 60 days for MGT-7",
+    "payment_terms": "Annual retainer, payable in advance or 50-50 split"
+  },
+  "tds_return": {
+    "scope_of_work": [
+      "Compilation of TDS/TCS deduction details for the quarter",
+      "Verification of TDS rates and threshold limits",
+      "Preparation and filing of TDS returns (Form 24Q, 26Q, 27Q as applicable)",
+      "Generation and distribution of Form 16/16A to deductees",
+      "Reconciliation with Form 26AS",
+      "Advisory on TDS compliance and correction statements"
+    ],
+    "deliverables": [
+      "Filed TDS Returns with provisional receipt",
+      "Form 16/16A for all deductees",
+      "TDS compliance summary for the quarter",
+      "Reconciliation statement with Form 26AS"
+    ],
+    "timeline": "Within due dates prescribed under the Income Tax Act",
+    "payment_terms": "Quarterly retainer, payable in advance"
+  },
+  "bookkeeping": {
+    "scope_of_work": [
+      "Day-to-day recording of financial transactions in accounting software",
+      "Bank reconciliation on a monthly basis",
+      "Accounts receivable and payable management",
+      "Preparation of monthly/quarterly Management Information System (MIS) reports",
+      "Payroll processing and salary disbursement support",
+      "Preparation of provisional financial statements",
+      "Coordination with statutory auditors"
+    ],
+    "deliverables": [
+      "Updated books of accounts (Tally/Zoho/QuickBooks)",
+      "Monthly Bank Reconciliation Statement",
+      "Monthly P&L and Balance Sheet (provisional)",
+      "Accounts Receivable/Payable aging report",
+      "Monthly MIS package"
+    ],
+    "timeline": "Ongoing monthly engagement with reports by 10th of following month",
+    "payment_terms": "Monthly retainer, payable in advance by the 1st of each month"
+  },
+  "certification": {
+    "scope_of_work": [
+      "Review of financial records and supporting documents relevant to the certificate",
+      "Verification and computation of the certified figures",
+      "Issuance of certificate in the prescribed format",
+      "UDIN generation for the certificate",
+      "Coordination with the requesting authority/bank if needed"
+    ],
+    "deliverables": [
+      "Signed and stamped certificate in the prescribed/required format",
+      "UDIN details",
+      "Supporting computation workpapers (if requested)"
+    ],
+    "timeline": "3-5 working days from receipt of complete information",
+    "payment_terms": "100% in advance"
+  },
+  "advisory_consulting": {
+    "scope_of_work": [
+      "Understanding client's specific advisory requirements",
+      "Research and analysis of applicable laws, regulations, and standards",
+      "Preparation of advisory opinion/memorandum",
+      "Discussion and presentation of recommendations",
+      "Follow-up support for implementation of recommendations"
+    ],
+    "deliverables": [
+      "Advisory Opinion / Memorandum",
+      "Presentation of findings and recommendations",
+      "Implementation roadmap (if applicable)",
+      "Follow-up consultation sessions"
+    ],
+    "timeline": "As mutually agreed based on the scope of advisory",
+    "payment_terms": "Hourly billing with monthly invoicing, or fixed fee for defined scope"
+  }
+}
