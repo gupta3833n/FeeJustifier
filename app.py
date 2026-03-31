@@ -281,6 +281,7 @@ defaults = {
     "additional_terms": [],
     "firm_info": dict(FIRM_DEFAULTS),
     "pdf_bytes": None,
+    "fy": get_current_fy(),
 }
 for k, v in defaults.items():
     if k not in st.session_state:
@@ -377,6 +378,7 @@ elif st.session_state.step == 2:
 
     st.markdown(f'<div class="disclaimer">Category: {eng_data.get("category", "")}'
                 + (f' &mdash; {eng_data.get("note", "")}' if eng_data.get("note") else '')
+                + f' &nbsp;|&nbsp; FY {st.session_state.get("fy", get_current_fy())}'
                 + '</div>', unsafe_allow_html=True)
 
     st.markdown("#### Client Information")
@@ -901,6 +903,7 @@ elif st.session_state.step == 4:
                     "custom_payment_terms": st.session_state.custom_payment_terms,
                     "additional_terms": st.session_state.additional_terms,
                     "validity_days": 30,
+                    "financial_year": st.session_state.get("fy", get_current_fy()),
                     "cover_letter": st.session_state.get("ai_cover_letter"),
                     "fee_justification": st.session_state.get("ai_justification"),
                 }
@@ -1142,7 +1145,14 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown(f"**Version:** {APP_VERSION}")
-    st.markdown(f"**FY:** {get_current_fy()}")
+    fy_options = [get_current_fy()]
+    # Ensure FY 2026-27 and 2025-26 are available
+    for fy in ["2026-27", "2025-26"]:
+        if fy not in fy_options:
+            fy_options.append(fy)
+    fy_options = sorted(set(fy_options), reverse=True)
+    selected_fy = st.selectbox("Financial Year", options=fy_options, index=0, key="selected_fy")
+    st.session_state["fy"] = selected_fy
     st.markdown("---")
 
     st.markdown("#### About")
@@ -1175,8 +1185,8 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         "<div style='font-size:0.75rem; color:#7f8c8d;'>"
-        "Built for AICA Capstone Project<br>"
-        "AI for Chartered Accountants"
+        "FeeJustifier &mdash; Professional Fee Benchmarking for CAs<br>"
+        "Powered by ICAI Guidelines &amp; Industry Data"
         "</div>",
         unsafe_allow_html=True,
     )

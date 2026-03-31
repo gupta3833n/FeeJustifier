@@ -202,7 +202,7 @@ def generate_proposal_pdf(proposal_data):
     styles = _get_styles()
 
     proposal_ref = get_proposal_number()
-    current_fy = get_current_fy()
+    current_fy = proposal_data.get("financial_year", get_current_fy())
 
     firm = proposal_data.get("firm_info", {})
     client = proposal_data.get("client_info", {})

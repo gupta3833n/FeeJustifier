@@ -1,6 +1,6 @@
 # FeeJustifier — CA Fee Benchmarking & Professional Proposal Generator
 
-**AICA (AI for CA) Level 2 Capstone Project**
+**Professional Fee Benchmarking & Proposal Generator for Chartered Accountants**
 
 FeeJustifier helps Chartered Accountants create professional fee proposals backed by market benchmark data. Select an engagement type, enter client details, review fee benchmarks, customize your proposal, and generate a Big-4 quality PDF engagement letter.
 
@@ -61,4 +61,4 @@ FeeJustifier/
 
 - Python + Streamlit
 - ReportLab (PDF generation)
-- Gemini API ready (placeholder for future AI-powered scope/fee suggestions)
+- Gemini API integration for AI-powered fee justification, scope enhancement, and cover letters
